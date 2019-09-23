@@ -28,7 +28,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 CREATE TABLE IF NOT EXISTS `nodes` (
   `ipv4` int(11) NOT NULL,
-  `port` smallint(5) unsigned NOT NULL DEFAULT '9333',
+  `port` smallint(5) unsigned NOT NULL DEFAULT '10333',
   `last_check` timestamp NULL DEFAULT NULL,
   `accepts_incoming` bit(1) NOT NULL DEFAULT b'0',
   `version` int(11) DEFAULT NULL,
